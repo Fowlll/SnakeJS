@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.canvas{
+    display: block;
+    margin: 100px auto;
+    width: 500px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+/* Score */
+#score{
+    position: absolute;
+    top: 50px;
+    right: 30%;
+    font-size: 50px;
+}
+
+/* Game Over */
+#loose{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+#loose > h2{
+    font-size: 50px;
+    line-height: 0px;
+}
+
+#loose > a{
+    padding: 10px 15px;
+    background-color: #333;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    position: relative;
+    top: 30px;
+}
+#loose > a:hover{
+    background-color: #666;
+}
