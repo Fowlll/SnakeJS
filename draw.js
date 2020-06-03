@@ -24,7 +24,7 @@ let score = 0;
     let loop = window.setInterval(() =>{
 
         if(!play){
-            document.getElementById("loose").innerHTML = "<h1>Game Over</h1> <br /> <p>Vous avez atteint " + score + " points !</p> <br /> <a href=\"index.html\">Rejouer</a>";
+            document.getElementById("loose").innerHTML = "<h2>Game Over</h2><p>Vous avez atteint " + score + " points !</p> <br /> <a href=\"index.html\">Rejouer</a>";
             clearInterval(loop);
             return;
         }
